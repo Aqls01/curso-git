@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENATI</title>
     <link rel="stylesheet" href="D:\curso-git\estilos.css">
-    <script src="D:\curso-git\script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
@@ -13,7 +12,36 @@
     <h1> Bienvenido a mi sitio web </h1>
 
     <button itemid="miau" onclick="showAlert()" > .: Alert :. </button>
+    <style>
+        button {
+            background-color: black;
+            color:gold;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-color: crimson;
+        }
+    </style>
 
     <p> Felicidades , acabamos de desplegar una pagina web en la nube </p>
 </body>
+
+<script>
+window.onload = function(){
+}
+function showAlert(){
+Swal.fire({
+    title: "Greniu.",
+    width: 600,
+    padding: "3em",
+    color: "#716add",
+    background: "#fff",
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url("ma.gif")
+      left top
+      no-repeat
+    `
+  });
+}
+</script>
 </html>

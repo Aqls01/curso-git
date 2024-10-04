@@ -9,13 +9,9 @@
 </head>
 <body>
     <h1> Bienvenido a mi sitio web </h1>
-
-    <button itemid="miau" onclick="showAlert()" > .: Alert :. </button>
-
     <p> Felicidades , acabamos de desplegar una pagina web en la nube </p>
-</body>
+
 <div class="contenedor">
-    <h2>Pagina Web - T01/T02</h2>
     <img class="imagen" src="neco-arc-dance.gif" alt="">
 </div>
 <div class="nav">
@@ -28,6 +24,8 @@
         </ul>
     </nav>
 </div>
+<button itemid="miau" onclick="showAlert()" > .: Alert :. </button>
+</body>
 
 <script>
     window.onload = function(){
@@ -53,6 +51,17 @@
     html{
         font-family: 'Times New Roman', Times, serif;
     }
+
+    .contenedor{
+        text-align: center;
+        color: white;
+        background-color: gold;
+        border-color: crimson;
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
 
     button {
         background-color: black;
